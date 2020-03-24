@@ -12,7 +12,7 @@ def services(request):
 def contact(request):
     return render(request, 'contact.html')
 
-def project_index(request):
+def projects(request):
     return render(request, 'projects.html')
 
 def project_detail(request):
